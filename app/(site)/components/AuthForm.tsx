@@ -1,6 +1,6 @@
 'use client';
 import { useCallback, useState, } from 'react';
-
+import Input from './Input';
 import React from 'react'
 import { useForm ,FieldValues,SubmitHandler} from 'react-hook-form';
 type Variant = 'LOGIN' | 'REGISTER'
